@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 const port = 4000;
 
-const url = 'mongodb://05f44a8b48ce:27017';
+const url = 'mongodb://a5f1c9464aa2:27017';
 
 const dbName = 'mydatabase';
 const collectionName = 'users';

@@ -1,0 +1,76 @@
+.header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
+.user-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px auto; /* Ustaw margines automatyczny aby wyśrodkować */
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+    max-width: 600px; /* Ustaw maksymalną szerokość */
+    transition: background-color 0.3s ease; /* Animacja zmiany koloru tła */
+}
+
+.user-container.approved {
+    background-color: #d4edda; /* Zielony kolor tła dla zatwierdzonych */
+}
+
+.user-details {
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 20px; /* Przesunięcie informacji o użytkowniku w lewo */
+}
+
+.user-task, .user-name, .user-email, .user-username {
+    margin-bottom: 5px;
+}
+
+.user-task {
+    font-weight: bold;
+    color: #333;
+}
+
+.user-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.user-email {
+    color: #555;
+}
+
+.user-username {
+    color: #777;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; /* Większy odstęp między przyciskami */
+    margin-right: 20px; /* Przesunięcie przycisków w lewo */
+    padding-left: 1em;
+}
+
+.delete-button, .approve-button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+.approve-button {
+    background-color: green;
+    color: white;
+}
