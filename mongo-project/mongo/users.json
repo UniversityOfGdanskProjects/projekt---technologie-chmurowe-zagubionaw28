@@ -1,0 +1,17 @@
+[
+  { "email": "user1@example.com", "username": "user1", "firstName": "John", "lastName": "Doe", "task": "Fix bugs in the login system" },
+  { "email": "user2@example.com", "username": "user2", "firstName": "Jane", "lastName": "Smith", "task": "Develop new feature for dashboard" },
+  { "email": "user3@example.com", "username": "user3", "firstName": "Robert", "lastName": "Brown", "task": "Write unit tests for API" },
+  { "email": "user4@example.com", "username": "user4", "firstName": "Emily", "lastName": "Davis", "task": "Update user documentation" },
+  { "email": "user5@example.com", "username": "user5", "firstName": "Michael", "lastName": "Johnson", "task": "Optimize database queries" },
+  { "email": "user6@example.com", "username": "user6", "firstName": "Laura", "lastName": "Wilson", "task": "Design new user interface" },
+  { "email": "user7@example.com", "username": "user7", "firstName": "James", "lastName": "Moore", "task": "Implement authentication" },
+  { "email": "user8@example.com", "username": "user8", "firstName": "David", "lastName": "Taylor", "task": "Set up CI/CD pipeline" },
+  { "email": "user9@example.com", "username": "user9", "firstName": "Jessica", "lastName": "Anderson", "task": "Perform code review" },
+  { "email": "user10@example.com", "username": "user10", "firstName": "Sarah", "lastName": "Thomas", "task": "Create database schema" },
+  { "email": "user11@example.com", "username": "user11", "firstName": "Daniel", "lastName": "Jackson", "task": "Write project documentation" },
+  { "email": "user12@example.com", "username": "user12", "firstName": "Matthew", "lastName": "White", "task": "Develop API endpoints" },
+  { "email": "user13@example.com", "username": "user13", "firstName": "Ashley", "lastName": "Harris", "task": "Conduct user testing" },
+  { "email": "user14@example.com", "username": "user14", "firstName": "Andrew", "lastName": "Martin", "task": "Optimize frontend performance" },
+  { "email": "user15@example.com", "username": "user15", "firstName": "Olivia", "lastName": "Garcia", "task": "Research new technologies" }
+]
