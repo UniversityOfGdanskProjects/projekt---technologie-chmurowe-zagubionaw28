@@ -1,8 +1,9 @@
 import axios from 'axios';
+import config from './frontend-config';
 
 async function communicateWithDatabase() {
-    const backendUrl = `http://localhost:3050`;
-    const response = await axios.get(backendUrl);
+    console.error(config["api_url"]);
+    const response = await axios.get(config["api_url"]);
     return response.data;
 }
 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import communicateWithDatabase from '../backendConnect';
-import './userModule.css'; // Importuj plik CSS
+import './userModule.css';
 
 function UserModule() {
     const [userData, setData] = useState(null);
